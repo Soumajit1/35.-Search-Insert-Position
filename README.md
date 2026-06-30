@@ -5,7 +5,6 @@ public:
         int left = 0;
         int right = n - 1;
         int firstTrueIndex = -1;
-
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
