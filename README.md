@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int searchInsert(vector<int>& nums, int target) {
+ int searchInsert(vector<int>& nums, int target) {
         int n = nums.size();
         int left = 0;
         int right = n - 1;
