@@ -14,7 +14,6 @@ public:
                 left = mid + 1;
             }
         }
-
         // If firstTrueIndex is -1, all elements are smaller than target
         // Insert at the end
         return firstTrueIndex != -1 ? firstTrueIndex : n;
